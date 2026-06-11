@@ -1,0 +1,44 @@
+{
+  "utils": {
+    "theming": {
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    },
+    "languages": {
+      "en": "English",
+      "es": "Spanish",
+      "fr": "French",
+      "pt": "Portuguese"
+    }
+  },
+  "cards": {
+    "theme": {
+      "title": {
+        "dark": "Press to switch to Light Theme",
+        "light": "Press to switch to Dark Theme"
+      }
+    },
+    "hero": {
+      "pfp": "/images/profile.webp",
+      "pfp_alt": "Profile picture of Satil",
+      "looking_for_job": "Available for a Job!",
+      "not_looking_for_job": "Not looking for a job at the moment.",
+      "title": "Salut, the name is Satil, and I am a {software_engineer}.",
+      "tokens": {
+        "software_engineer": "Software Engineer"
+      },
+      "address": "Based in Brazil, open to remote opportunities worldwide.",
+      "actions": [
+        {
+          "text": "Contact",
+          "type": "link",
+          "href": "/en#contact",
+          "position": "left"
+        }
+      ]
+    },
+    "about": {},
+    "works": {}
+  }
+}

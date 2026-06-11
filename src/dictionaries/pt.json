@@ -1,0 +1,40 @@
+{
+  "utils": {
+    "theming": {
+      "light": "Claro",
+      "dark": "Escuro",
+      "system": "Sistema"
+    },
+    "languages": {
+      "en": "Inglês",
+      "es": "Espanhol",
+      "fr": "Francês",
+      "pt": "Português"
+    }
+  },
+  "cards": {
+    "theme": {
+      "title": {
+        "dark": "Pressione para mudar para o Tema Claro",
+        "light": "Pressione para mudar para o Tema Escuro"
+      }
+    },
+    "hero": {
+      "title": "Salut, O nome é Satil, e eu sou um {software_engineer}.",
+      "tokens": {
+        "software_engineer": "Engenheiro de Software"
+      },
+      "address": "Baseado no Brasil, aberto a oportunidades remotas em todo o mundo.",
+      "looking_for_job": "Disponível para trabalho!",
+      "not_looking_for_job": "Não estou procurando trabalho no momento.",
+      "actions": [
+        {
+          "text": "Contact",
+          "type": "link",
+          "href": "/pt#contact",
+          "position": "left"
+        }
+      ]
+    }
+  }
+}
