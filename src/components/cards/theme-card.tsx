@@ -41,7 +41,7 @@ const ThemeCard: React.FC<ThemeCardProps> = ({ lang, dict }) => {
     <Card
       role='button'
       onClick={handleToggleTheme}
-      className='bg-card-foreground text-card select-none col-span-2 row-span-2'
+      className='bg-card-foreground text-card select-none col-span-2 row-span-4'
     >
       <CardHeader>{mounted ? ThemeIcon : null}</CardHeader>
       <CardContent>{mounted ? ThemeText : null}</CardContent>

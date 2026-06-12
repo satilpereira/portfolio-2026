@@ -1,6 +1,11 @@
 import React from "react";
 import { getDictionary, Locale } from "@/app/[lang]/dictionaries";
-import { Card } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 
 type HeroCardProps = {
   lang: Locale;
@@ -8,7 +13,21 @@ type HeroCardProps = {
 };
 
 const AboutMeCard: React.FC<HeroCardProps> = ({ lang, dict }) => {
-  return <Card className='col-span-2 row-span-5'>AboutMeCard</Card>;
+  const d_title = dict?.cards.about.title || "";
+  const d_content = dict?.cards.about.content || "";
+
+  return (
+    <Card className='col-span-2 row-span-5'>
+      <CardHeader>
+        <CardTitle className='text-muted-foreground font-light'>
+          {d_title}
+        </CardTitle>
+      </CardHeader>
+      <CardContent>
+        <span className='line-clamp-3'>{d_content}</span>
+      </CardContent>
+    </Card>
+  );
 };
 
 export default AboutMeCard;

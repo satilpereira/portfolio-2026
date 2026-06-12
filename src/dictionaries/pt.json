@@ -20,7 +20,7 @@
       }
     },
     "hero": {
-      "title": "Salut, O nome é Satil, e eu sou um {software_engineer}.",
+      "title": "Salut! O nome é Satil, e eu sou um {software_engineer}.",
       "tokens": {
         "software_engineer": "Engenheiro de Software"
       },
@@ -35,6 +35,14 @@
           "position": "left"
         }
       ]
+    },
+    "about": {
+      "title": "Sobre Mim",
+      "content": "Sou um engenheiro de software apaixonado por criar soluções inovadoras e eficientes. Com experiência em desenvolvimento web, mobile e backend, estou sempre buscando aprender novas tecnologias e aprimorar minhas habilidades. Acredito que a tecnologia tem o poder de transformar vidas e estou comprometido em usar minhas habilidades para fazer a diferença."
+    },
+    "projects": {
+      "title": "Projetos",
+      "content": "Aqui estão alguns dos meus projetos mais recentes. Cada um deles reflete minha paixão por criar soluções inovadoras e eficientes. Sinta-se à vontade para explorar e entrar em contato se quiser saber mais sobre algum deles!"
     }
   }
 }

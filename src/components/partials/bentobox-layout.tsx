@@ -8,7 +8,7 @@ type BentoGridProps = {
 const BentoGrid: React.FC<BentoGridProps> = ({ children }) => {
   return (
     <section
-      className={cn("grid grid-cols-12 grid-rows-5 gap-4 p-4")}
+      className={cn("grid grid-cols-12 grid-rows-10 gap-4 p-4")}
     >
       {children}
     </section>

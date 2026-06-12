@@ -24,7 +24,7 @@
       "pfp_alt": "Profile picture of Satil",
       "looking_for_job": "Available for a Job!",
       "not_looking_for_job": "Not looking for a job at the moment.",
-      "title": "Salut, the name is Satil, and I am a {software_engineer}.",
+      "title": "Salut! The name is Satil, and I am a {software_engineer}.",
       "tokens": {
         "software_engineer": "Software Engineer"
       },
@@ -44,7 +44,14 @@
         }
       ]
     },
-    "about": {},
+    "about": {
+      "title": "About Me",
+      "content": "I specialize in building robust, scalable applications with a focus on seamless user experiences. My approach combines technical precision with an eye for modern design aesthetics. When I'm not coding, you can find me exploring the latest in tech, contributing to open-source, or enjoying the vibrant culture of Brazil."
+    },
+    "projects": {
+      "title": "Projects",
+      "content": "Here are some of my recent projects. Each one reflects my passion for creating innovative and efficient solutions. Feel free to explore and reach out if you'd like to know more about any of them!"
+    },
     "works": {}
   }
 }

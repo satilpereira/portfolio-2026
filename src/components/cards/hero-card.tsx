@@ -31,7 +31,7 @@ const HeroCard: React.FC<HeroCardProps> = ({ lang, dict }) => {
     dict?.cards.hero.not_looking_for_job || "";
   const lookingForJob = process.env.LOOKING_FOR_JOB === "true";
   return (
-    <Card className='col-span-12 row-span-5 md:col-span-8 md:row-span-5'>
+    <Card className='col-span-12 row-span-10 md:col-span-8 md:row-span-10'>
       <CardHeader>
         <CardTitle>
           <Avatar>
@@ -57,7 +57,7 @@ const HeroCard: React.FC<HeroCardProps> = ({ lang, dict }) => {
           text={d_title}
           values={{
             software_engineer: (
-              <span className='text-blue-500 font-bold'>
+              <span className='text-primary font-bold'>
                 {d_tokens.software_engineer}
               </span>
             ),
