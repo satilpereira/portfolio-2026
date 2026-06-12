@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import "./custom.css";
 import { Header } from "@/components/partials/header";
 import { ThemeProvider } from "@/components/theme-provider";
 
@@ -31,7 +32,7 @@ export default function RootLayout({
       suppressHydrationWarning
       className={`${geistSans.className}  h-full antialiased`}
     >
-      <body className='min-h-full flex flex-col'>
+      <body className='min-h-full flex flex-col dotted-background'>
         <ThemeProvider
           attribute='class'
           defaultTheme='system'

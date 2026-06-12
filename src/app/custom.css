@@ -1,0 +1,16 @@
+.dotted-background {
+  --dot-bg: var(--color-background);
+  --dot-color: color-mix(
+    in srgb,
+    var(--color-muted-foreground) 20%,
+    transparent
+  );
+
+  background-color: var(--dot-bg);
+  background-image: radial-gradient(
+    circle,
+    var(--dot-color) 1px,
+    transparent 1.5px
+  );
+  background-size: 16px 16px;
+}

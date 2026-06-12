@@ -46,7 +46,7 @@ const HeroCard: React.FC<HeroCardProps> = ({ lang, dict }) => {
               "bg-red-500": !lookingForJob,
             })}
           />
-          <div>
+          <div className='geist_mono_8d43a2aa-module__8Li5zG__className'>
             {lookingForJob ? d_lookingForJob : d_not_looking_for_job}
           </div>
         </CardAction>

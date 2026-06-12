@@ -35,6 +35,12 @@
           "type": "link",
           "href": "/en#contact",
           "position": "left"
+        },
+        {
+          "text": "Get Resume",
+          "type": "link",
+          "href": "/resume-en.pdf",
+          "position": "right"
         }
       ]
     },
