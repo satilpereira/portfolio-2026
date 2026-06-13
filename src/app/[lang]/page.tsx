@@ -6,6 +6,7 @@ import HeroCard from "@/components/cards/hero-card";
 import AboutMeCard from "@/components/cards/aboutme-card";
 import ProjectsCard from "@/components/cards/projects-card";
 import SocialCard from "@/components/cards/social-card";
+import AnimatedPickaxe from "@/components/icons/animated-pickaxe";
 
 type HomePageProps = {
   params: Promise<Record<string, string>>;
@@ -26,6 +27,9 @@ export default async function HomePage({ params }: HomePageProps) {
           <ProjectsCard lang={lang} dict={dict} />
           <SocialCard lang={lang} dict={dict} />
         </BentoGrid>
+      </section>
+      <section className='border-2 border-dashed bg-card m-4 rounded-lg aspect-video grid place-items-center'>
+        <AnimatedPickaxe />
       </section>
     </main>
   );

@@ -65,7 +65,7 @@ const HeroCard: React.FC<HeroCardProps> = ({ lang, dict }) => {
         />
         <small className='text-lg'>{d_address}</small>
       </CardContent>
-      <CardFooter className='mt-auto'>
+      <CardFooter className='mt-auto gap-4'>
         {Array.from({ length: d_ctas.length }).map((_, index) =>
           d_ctas[index].type === "button" ? (
             <CardAction key={index} className='p-0'>

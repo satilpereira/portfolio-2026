@@ -10,7 +10,7 @@ const SocialCard: React.FC<SocialCardProps> = ({ lang, dict }) => {
         href='https://github.com/satilpereira'
         target='_blank'
         rel='noopener noreferrer'
-        className='w-full h-full row-span-1 col-span-1 col-start-1 row-start-1 '
+        className='w-full h-full row-span-1 col-span-1 col-start-1 row-start-1'
       >
         <Card className='w-full h-full grid place-items-center bg-[#101411] dark:invert'>
           <svg viewBox='0 0 512 512' className='size-10' fill='white'>
@@ -37,30 +37,34 @@ const SocialCard: React.FC<SocialCardProps> = ({ lang, dict }) => {
       </a>
       <Card
         aria-disabled
-        className='grid place-items-center row-span-1 col-span-1 col-start-1 row-start-2 bg-[#ea4c89] aria-disabled:opacity-30 aria-disabled:grayscale-100 aria-disabled:cursor-not-allowed'
+        className='group grid place-items-center row-span-1 col-span-1 col-start-1 row-start-2 bg-[#ea4c89] aria-disabled:bg-[#ddd] dark:aria-disabled:bg-[#303030] aria-disabled:cursor-not-allowed'
       >
         <svg
           xmlns='http://www.w3.org/2000/svg'
           viewBox='0 0 640 640'
-          className='size-12'
+          className='size-12 group-aria-disabled:opacity-80 dark:group-aria-disabled:opacity-40'
           fill='white'
         >
           <path d='M320 72C183 72 72 183 72 320C72 457 183 568 320 568C457 568 568 457 568 320C568 183 457 72 320 72zM484 186.4C513.5 222.4 531.4 268.4 531.8 318.4C524.8 316.9 454.8 302.7 384.3 311.6C378.5 297.6 373.1 285.2 365.7 270C444 238 479.5 192.5 484 186.5zM460.4 161.9C456.6 167.3 424.7 210.2 349.4 238.4C314.7 174.6 276.2 122.2 270.4 114.4C337.6 98.2 408.4 115.7 460.5 161.9zM229.9 128.6C235.5 136.3 273.3 188.7 308.4 251.1C209.3 277.4 122 277 112.6 276.9C126.3 211.2 170.6 156.5 229.9 128.6zM108.2 320.3C108.2 318.1 108.2 316 108.3 313.8C117.6 314 220.2 315.3 326 283.7C332.1 295.6 337.9 307.6 343.2 319.6C266.6 341.2 197 403.1 162.7 461.9C128.9 424.3 108.2 374.7 108.2 320.3zM190 487.4C212.1 442.2 272.2 383.8 357.6 354.6C387.3 431.9 399.6 496.7 402.8 515.2C334.7 544.2 252.8 536.3 190 487.3zM438.4 495.9C436.2 483 425 421 397.2 344.9C463.6 334.3 521.9 351.7 529.1 354C519.7 412.9 485.8 463.8 438.3 496z' />
         </svg>
       </Card>
-      <Card
-        aria-disabled
-        className='grid place-items-center row-span-1 col-span-1 col-start-2 row-start-2 bg-[#FEA116] aria-disabled:opacity-30 aria-disabled:grayscale-100 aria-disabled:cursor-not-allowed'
+      <a
+        href='https://leetcode.com/u/satilpereira/'
+        target='_blank'
+        rel='noopener noreferrer'
+        className='w-full h-full row-span-1 col-span-1 col-start-2 row-start-2'
       >
-        <svg
-          xmlns='http://www.w3.org/2000/svg'
-          viewBox='0 0 448 512'
-          className='size-10'
-          fill='white'
-        >
-          <path d='M235.4 9.3C246.5-2.5 265.1-3.2 277 7.9s12.5 29.8 1.4 41.6l-43 46c21.5 3.3 42.1 11.8 59.1 25.6l74.6 60.3c12.6 10.2 14.6 28.8 4.4 41.4s-28.7 14.6-41.4 4.4l-74.6-60.3c-26.2-21.1-71.9-18.2-94.5 5.9L81 261c-21.5 23-19.1 60 5.6 84.2l91.2 89.4c24.9 24 65.6 24 90.1-.4l51.1-51c11.5-11.5 30.1-11.5 41.6 .1s11.4 30.2-.1 41.7l-51.1 51c-47.1 47.1-124 47.7-171.9 1.6l-92-90.2C-1.4 341.3-6 267.9 38 220.7L235.4 9.3zM411.7 273.2c16.2 0 29.4 13.2 29.4 29.5s-13.2 29.5-29.4 29.5l-216.9 0c-16.2 0-29.4-13.2-29.4-29.5s13.2-29.5 29.4-29.5l216.9 0z' />
-        </svg>
-      </Card>
+        <Card className='group w-full h-full grid place-items-center bg-[#FEA116] aria-disabled:bg-[#ddd] dark:aria-disabled:bg-[#303030] aria-disabled:cursor-not-allowed'>
+          <svg
+            xmlns='http://www.w3.org/2000/svg'
+            viewBox='0 0 448 512'
+            className='size-10 group-aria-disabled:opacity-80 dark:group-aria-disabled:opacity-40'
+            fill='white'
+          >
+            <path d='M235.4 9.3C246.5-2.5 265.1-3.2 277 7.9s12.5 29.8 1.4 41.6l-43 46c21.5 3.3 42.1 11.8 59.1 25.6l74.6 60.3c12.6 10.2 14.6 28.8 4.4 41.4s-28.7 14.6-41.4 4.4l-74.6-60.3c-26.2-21.1-71.9-18.2-94.5 5.9L81 261c-21.5 23-19.1 60 5.6 84.2l91.2 89.4c24.9 24 65.6 24 90.1-.4l51.1-51c11.5-11.5 30.1-11.5 41.6 .1s11.4 30.2-.1 41.7l-51.1 51c-47.1 47.1-124 47.7-171.9 1.6l-92-90.2C-1.4 341.3-6 267.9 38 220.7L235.4 9.3zM411.7 273.2c16.2 0 29.4 13.2 29.4 29.5s-13.2 29.5-29.4 29.5l-216.9 0c-16.2 0-29.4-13.2-29.4-29.5s13.2-29.5 29.4-29.5l216.9 0z' />
+          </svg>
+        </Card>
+      </a>
     </div>
   );
 };

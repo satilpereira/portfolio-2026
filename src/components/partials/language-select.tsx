@@ -15,7 +15,9 @@ import Link from "next/link";
 export function LanguageSelect() {
   return (
     <DropdownMenu>
-      <DropdownMenuTrigger render={<Button variant='outline' />}>
+      <DropdownMenuTrigger
+        render={<Button variant='outline' className={"bg-card"} />}
+      >
         <Languages className='h-4 w-4' />{" "}
         <ChevronDown className='h-3.5! w-3.5!' />
       </DropdownMenuTrigger>
