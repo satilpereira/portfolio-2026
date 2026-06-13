@@ -38,9 +38,9 @@
         },
         {
           "text": "Get Resume",
-          "type": "link",
+          "type": "download",
           "href": "/resume-en.pdf",
-          "position": "right"
+          "position": "left"
         }
       ]
     },

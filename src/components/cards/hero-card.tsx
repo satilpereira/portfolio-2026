@@ -79,6 +79,19 @@ const HeroCard: React.FC<HeroCardProps> = ({ lang, dict }) => {
                 </Button>
               </Link>
             </CardAction>
+          ) : d_ctas[index].type === "download" ? (
+            <CardAction key={index} className='p-0'>
+              <a
+                href={d_ctas[index].href}
+                download
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <Button variant='outline'>
+                  {d_ctas[index].text}
+                </Button>
+              </a>
+            </CardAction>
           ) : (
             <></>
           ),

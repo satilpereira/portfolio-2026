@@ -29,9 +29,15 @@
       "not_looking_for_job": "Não estou procurando trabalho no momento.",
       "actions": [
         {
-          "text": "Contact",
+          "text": "Contato",
           "type": "link",
           "href": "/pt#contact",
+          "position": "left"
+        },
+        {
+          "text": "Baixar Currículo",
+          "type": "download",
+          "href": "/resume-pt.pdf",
           "position": "left"
         }
       ]

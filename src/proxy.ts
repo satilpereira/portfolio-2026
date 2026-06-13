@@ -40,8 +40,8 @@ export function proxy(request: NextRequest) {
 
 export const config = {
   matcher: [
-    // Skip all internal paths (_next)
-    '/((?!_next).*)',
+    // Skip all internal paths (_next) and any paths that contain a dot (e.g. static assets like .pdf, .jpg, etc.)
+    '/((?!_next|.*\\.pdf$).*)',
     // Optional: only run on root (/) URL
     // '/'
   ],
